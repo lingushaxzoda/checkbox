@@ -1,0 +1,47 @@
+.container{
+    margin: 0 auto;
+    width: 1320px;
+}
+.h1{
+    margin-left: 230px;
+    color:coral;
+
+}
+.input_span{
+     width: 30px;
+     height: 30px;
+     border: 2px solid black;
+     border-radius: 4px;
+     transform: translateY(13px);
+     display: inline-block;
+}
+
+.input:checked + .input_span{
+    background-image: url("../img/table-tennis.png");
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.label{
+    color:fuchsia;
+}
+.kokojon{
+    color: hotpink;
+}
+
+.kkk{
+    color: magenta;
+}
+.lll{
+    color:violet;
+}
+form{
+    margin-left: 400px; 
+}
+.button{
+    padding: 10px 200px;
+    border-radius: 7px;
+    background-color: mediumspringgreen;
+    transform: translateX(-200px);
+}
